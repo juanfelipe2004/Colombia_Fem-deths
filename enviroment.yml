@@ -1,0 +1,11 @@
+# conda env create --file environment.yml
+name: Colombia_Fem-deths
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - python=3.7
+  - pip:
+    
